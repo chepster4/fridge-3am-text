@@ -1,0 +1,27 @@
+# The 3AM Fridge Text
+
+[![make.fun](https://make.fun/badge/u-deysumbrella-the-3am-fridge-text-4c3e721d.svg)](https://make.fun/competitions/u-deysumbrella-the-3am-fridge-text-4c3e721d)
+
+Entry for [The 3AM Fridge Text](https://make.fun/competitions/u-deysumbrella-the-3am-fridge-text-4c3e721d) on make.fun.
+
+## The line
+
+> 3am check-in: that's the fourth time tonight you've opened me and taken nothing. I'm starting to think you're the snack.
+
+The message a smart fridge texts its owner at 3am: it has been counting
+every open-and-take-nothing visit, and it has drawn its own conclusion.
+
+## How to run
+
+Requires Node 22+ (runs TypeScript as-is):
+
+```sh
+node main.ts
+```
+
+It writes the line above to `/output/entry.txt` — the same bytes on
+every run. Standard library only, no network, no randomness.
+
+## License
+
+MIT
